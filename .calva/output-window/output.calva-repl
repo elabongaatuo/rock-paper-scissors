@@ -1,0 +1,167 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\elabonga\rock-paper-scissors & java -jar ".calva\deps.clj.jar" -Sdeps "{:deps {nrepl/nrepl {:mvn/version,""1.0.0""},cider/cider-nrepl {:mvn/version,""0.28.5""}}}" -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" & popd
+; Using host:port 127.0.0.1:60255 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉rps.core꞉> 
+#'rps.core/key-check
+clj꞉rps.core꞉> 
+#'rps.core/key-check
+clj꞉rps.core꞉> 
+#'rps.core/computer-player
+clj꞉rps.core꞉> 
+#'rps.core/case-checker?
+clj꞉rps.core꞉> 
+; Syntax error macroexpanding clojure.core/cond at (c:\Users\elabonga\rock-paper-scissors\src\clj\rps\core.clj:22:3).
+; cond requires an even number of forms
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  p
+you have chosen paper
+Computer chose :  s
+; Execution error (IllegalStateException) at rps.core/eval5897 (REPL:45).
+; Attempting to call unbound fn: #'rps.core/check-win
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  p
+you have chosen paper
+Computer chose :  s
+; Execution error (IllegalStateException) at rps.core/eval7648 (REPL:45).
+; Attempting to call unbound fn: #'rps.core/check-win
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  p
+you have chosen paper
+Computer chose :  s
+; Execution error (IllegalStateException) at rps.core/eval7651 (REPL:44).
+; Attempting to call unbound fn: #'rps.core/check-win
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  p
+you have chosen paper
+Computer chose :  r
+; Execution error (IllegalStateException) at rps.core/eval7654 (REPL:44).
+; Attempting to call unbound fn: #'rps.core/check-win
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  r
+you have chosen rock
+Computer chose :  r
+; Execution error (IllegalStateException) at rps.core/eval7657 (REPL:44).
+; Attempting to call unbound fn: #'rps.core/check-win
+clj꞉rps.core꞉> 
+nil
+clj꞉rps.core꞉> 
+#'rps.core/key-check
+clj꞉rps.core꞉> 
+#'rps.core/computer-player
+clj꞉rps.core꞉> 
+#'rps.core/case-checker?
+clj꞉rps.core꞉> 
+#'rps.core/check-win
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  p
+you have chosen paper
+Computer chose :  r
+You win!
+User wins :  1  | Computer wins :  0
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  p
+you have chosen paper
+Computer chose :  s
+You lose!
+User wins :  1  | Computer wins :  1
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  r
+you have chosen rock
+Computer chose :  p
+You lose!
+User wins :  1  | Computer wins :  2
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  s
+you have chosen scissors
+Computer chose :  r
+You lose!
+User wins :  1  | Computer wins :  3
+A game of Rock Paper & Scissors. Pres R for Rock, P for Paper and S for Scissors
+You chose :  r
+you have chosen rock
+Computer chose :  p
+You lose!
+User wins :  1  | Computer wins :  4
+nil
+clj꞉rps.core꞉> 
+nil
+clj꞉rps.core꞉> 
+#'rps.core/key-check
+clj꞉rps.core꞉> 
+#'rps.core/computer-player
+clj꞉rps.core꞉> 
+#'rps.core/case-checker?
+clj꞉rps.core꞉> 
+#'rps.core/check-win
+clj꞉rps.core꞉> 
+#'rps.core/user-count
+clj꞉rps.core꞉> 
+#'rps.core/computer-count
+clj꞉rps.core꞉> 
+A game of Rock Paper & Scissors. Press R for Rock, P for Paper, and S for Scissors
+You chose: p
+You have chosen paper
+Computer chose: r
+You win!
+User wins: 1  | Computer wins: 0
+A game of Rock Paper & Scissors. Press R for Rock, P for Paper, and S for Scissors
+You chose: p
+You have chosen paper
+Computer chose: s
+You lose!
+User wins: 1  | Computer wins: 1
+A game of Rock Paper & Scissors. Press R for Rock, P for Paper, and S for Scissors
+You chose: p
+You have chosen paper
+Computer chose: p
+It's a draw
+User wins: 1  | Computer wins: 1
+A game of Rock Paper & Scissors. Press R for Rock, P for Paper, and S for Scissors
+You chose: r
+You have chosen rock
+Computer chose: r
+It's a draw
+User wins: 1  | Computer wins: 1
+A game of Rock Paper & Scissors. Press R for Rock, P for Paper, and S for Scissors
+You chose: s
+You have chosen scissors
+Computer chose: r
+You lose!
+User wins: 1  | Computer wins: 2
+nil
+clj꞉rps.core꞉> 
+; Syntax error compiling at (c:\Users\elabonga\rock-paper-scissors\src\clj\rps\core.clj:50:33).
+; Unable to resolve symbol: play-game-loop in this context
+clj꞉rps.core꞉> 
